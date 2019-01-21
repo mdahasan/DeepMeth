@@ -3,7 +3,7 @@ Process methlyation matrix into image for each sample. Each column in the methyl
 matrix represent each sample methylation values across all genes.
 Some feature (gene) reduction may be applied to reduce the number of gene and retain
 only important genes.
-List of gene methylation values are converted into square matrix (image) of size a X b
+List of gene methylation values are converted into square matrix (image) of size n X n
 0 padded at the end of the square matrix (image) if necessary
 
 returns a dictionary of per sample image per cancer
